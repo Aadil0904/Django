@@ -1,0 +1,15 @@
+{
+"version": "2.0.0",
+"tasks": [
+{
+"label": "Format Django Template (djhtml)",
+"type": "shell",
+"command": "/opt/homebrew/bin/djhtml",
+"args": ["${file}"],
+"presentation": {
+"reveal": "silent"
+},
+"problemMatcher": []
+}
+]
+}
